@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    background: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.boxcontainer {
+    background: lightskyblue;
+    height: 400px;
+    width: 400px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.uno {
+    background: orangered;
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+}
